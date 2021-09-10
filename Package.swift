@@ -10,7 +10,8 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/AudioKit/KissFFT", from: "1.0.0"),
         .package(name: "AudioKit",
-                 path: "/Users/pierre/v/SkyDrive/Git_MacFast/dev_iPhone/3rdPartyForked/AudioKit"),
+                 url: "https://github.com/GitHubbler/AudioKit.git",
+                 branch: "ts1"),
     ],
     targets: [
         .target(name: "Soundpipe",
